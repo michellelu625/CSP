@@ -1,29 +1,3 @@
-"""def manage_inventory(inventory):
-    while True:
-        action = input("Enter 'add' to add an item, 'remove' to remove an item, or 'display' to see the inventory: ")
-        if action == 'add':
-            item = input("Enter an item to add to the inventory: ")
-            inventory.append(item)
-        elif action == 'remove':
-            item = input("Enter an item to remove from the inventory: ")
-            if item in inventory:
-                inventory.remove(item)
-            else:
-                print("Item not found in inventory.")
-        elif action == 'display':
-            print("Current inventory:")
-            for item in inventory:
-                print(item)
-        else:
-            print("Invalid action. Please try again.")
-
-def mainFunction():
-    inventory = []
-    manage_inventory(inventory)
-
-if __name__ == "__main__":
-    mainFunction()"""
-
 def count(inventory):
     erasercount = inventory.count("erasers")
     staplercount = inventory.count("staplers")
